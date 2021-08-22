@@ -1,5 +1,5 @@
 alias reload="source ~/.zshrc"
-alias reload="source ~/.alias"
+source ~/.alias
 
 source $HOME/Config/antigen.zsh
 # Load the oh-my-zsh's library.
