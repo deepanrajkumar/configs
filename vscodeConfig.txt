@@ -1,0 +1,38 @@
+{
+  "editor.fontFamily": "Dank Mono, Operator Mono, SpaceMono Nerd Font Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "terminal.integrated.fontFamily": "jetBrainsMono Nerd Font Mono, TerminessTTF Nerd Font Mono, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 16,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.suggestSelection": "first",
+  "workbench.iconTheme": "vscode-icons",
+  "git.enableSmartCommit": true,
+  "editor.inlineSuggest.enabled": true,
+  "git.autofetch": false,
+  "editor.minimap.autohide": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Copilot Theme"
+  // "workbench.colorCustomizations": {
+  //   "editor.background": "#000",
+  //   "activityBar.background": "#000",
+  //   "menu.background": "#000",
+  //   "badge.background": "#000",
+  //   "panel.background": "#000",
+  //   "sideBar.background": "#000",
+  //   "minimap.background": "#000",
+  //   "terminal.background": "#000",
+  //   "banner.background": "#000",
+  //   "editor.foldBackground": "#000",
+  //   "statusBar.background": "#000",
+  //   "tab.activeBackground": "#000"
+  // }
+}
