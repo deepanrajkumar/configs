@@ -21,18 +21,4 @@
   "editor.minimap.autohide": true,
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.colorTheme": "Copilot Theme"
-  // "workbench.colorCustomizations": {
-  //   "editor.background": "#000",
-  //   "activityBar.background": "#000",
-  //   "menu.background": "#000",
-  //   "badge.background": "#000",
-  //   "panel.background": "#000",
-  //   "sideBar.background": "#000",
-  //   "minimap.background": "#000",
-  //   "terminal.background": "#000",
-  //   "banner.background": "#000",
-  //   "editor.foldBackground": "#000",
-  //   "statusBar.background": "#000",
-  //   "tab.activeBackground": "#000"
-  // }
 }
