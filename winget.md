@@ -1,0 +1,57 @@
+# Winget Install List
+
+```sh
+winget install Bitdefender.Bitdefender
+winget install CPUID.CPU-Z
+winget install Microsoft.Git
+winget install KDE.Krita
+winget install Mozilla.Firefox
+winget install Notepad++.Notepad++
+winget install Proton.ProtonVPN
+winget install VideoLAN.VLC
+winget install RARLab.WinRAR
+winget install JanDeDobbeleer.OhMyPosh
+winget install Microsoft.VCRedist.2010.x64
+winget install GitHub.cli
+winget install GitExtensionsTeam.GitExtensions
+winget install GitButler.GitButler
+winget install PuTTY.PuTTY
+winget install Microsoft.PowerShell
+winget install Adobe.Acrobat.Pro
+winget install Google.Chrome
+winget install ACLAP.DownloadHelperCoApp
+winget install Tonec.InternetDownloadManager
+winget install Microsoft.Edge
+winget install Valve.Steam
+winget install Ubisoft.Connect
+winget install qBittorrent.qBittorrent
+winget install AOMEI.PartitionAssistant
+winget install Microsoft.VCRedist.2013.x64
+winget install Microsoft.VCRedist.2012.x86
+winget install Microsoft.VCRedist.2015+.x64
+winget install Yarn.Yarn
+winget install Microsoft.DotNet.Runtime.6
+winget install Microsoft.VCRedist.2013.x86
+winget install AOMEI.Backupper.Standard
+winget install EpicGames.EpicGamesLauncher
+winget install Famatech.AdvancedIPScanner
+winget install Microsoft.VCRedist.2010.x86
+winget install Microsoft.DotNet.DesktopRuntime.8
+winget install Microsoft.VCRedist.2012.x64
+winget install Microsoft.VCRedist.2015+.x86
+winget install ElectronicArts.EADesktop
+winget install GitHub.GitHubDesktop
+winget install JesseDuffield.lazygit
+winget install Postman.Postman
+winget install Schniz.fnm
+winget install JetBrains.Toolbox
+winget install UderzoSoftware.SpaceSniffer
+winget install ZhornSoftware.Caffeine
+winget install Balena.Etcher
+winget install Axosoft.GitKraken
+winget install WinSCP.WinSCP
+winget install Microsoft.VisualStudioCode
+winget install Microsoft.AppInstaller
+winget install Microsoft.WindowsTerminal
+winget install Microsoft.WSL
+```
