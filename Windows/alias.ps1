@@ -147,3 +147,46 @@ function reload-profile { . $PROFILE }
 Set-Alias code code         # VS Code
 Set-Alias cls Clear-Host
 
+# ----------------------------
+# Navigation Aliases
+# ----------------------------
+Set-Alias .. Set-Location ..
+function ... { Set-Location ../.. }
+function .... { Set-Location ../../.. }
+function ..... { Set-Location ../../../.. }
+Set-Alias ~ Set-Location ~
+Set-Alias - Set-Location -
+
+# ----------------------------
+# Shortcut Locations
+# ----------------------------
+Set-Alias d "Set-Location ~/Documents/Dropbox"
+Set-Alias dl "Set-Location ~/Downloads"
+Set-Alias dt "Set-Location ~/Desktop"
+Set-Alias p "Set-Location ~/projects"
+
+# ----------------------------
+# Git Shortcuts
+# ----------------------------
+Set-Alias g git
+function gup { git pull --rebase $args }
+Set-Alias gs git status
+function glg { git log --oneline --graph --decorate --all }
+
+# ----------------------------
+# LS-style Commands
+# ----------------------------
+Set-Alias l "Get-ChildItem -Force | Format-List"
+Set-Alias la "Get-ChildItem -Force"
+function lsd { Get-ChildItem -Directory }
+
+# ----------------------------
+# Utilities
+# ----------------------------
+function reload { . $PROFILE }
+
+# Display PATH line-by-line
+function path { $Env:Path -split ';' }
+
+# Week number (custom ISO logic not included, this is a placeholder)
+function week { (Get-Date).DayOfYear / 7 -as [int] }
